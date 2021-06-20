@@ -1,13 +1,15 @@
 import React from "react";
 import "./App.css";
+import { SearchBar } from "./components";
 
 function App() {
 	return (
 		<div className="App">
-			<div>
-				<header className="App-header">
+			<header className="App-header">
         Tweet Feed
-				</header>
+			</header>
+			<div>
+				<SearchBar/>
 			</div>
 		</div>
 	);
