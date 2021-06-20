@@ -4,8 +4,11 @@ import "./App.css";
 function App() {
 	return (
 		<div className="App">
-			<header className="App-header">
-			</header>
+			<div>
+				<header className="App-header">
+        Tweet Feed
+				</header>
+			</div>
 		</div>
 	);
 }
