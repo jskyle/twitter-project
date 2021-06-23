@@ -1,7 +1,9 @@
 import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
+import search from "./search/reducer";
 
 export const store = configureStore({
 	reducer: {
+		search,
 	},
 });
 
